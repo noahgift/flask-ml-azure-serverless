@@ -186,6 +186,7 @@ You can watch this [YouTube Walkthrough of this process](https://www.youtube.com
       displayName: 'Run lint tests'
 ```
 
+You can watch this [YouTube Walkthrough of this process](https://www.youtube.com/watch?v=TItOatTfAOc)
 
 
 
