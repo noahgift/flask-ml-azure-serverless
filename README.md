@@ -47,5 +47,14 @@ source ~/.flask-ml-azure/bin/activate
 
 ![3-flask-ml-service](https://user-images.githubusercontent.com/58792/89557009-2e709e00-d7e0-11ea-9b31-9090c8067a10.png)
 
+4. Verify deployed application works by browsing to deployed url: `https://<your-appservice>.azurewebsites.net/`
+
+You will see this output:
+
+![4-deployed-app](https://user-images.githubusercontent.com/58792/89557343-a8088c00-d7e0-11ea-891c-4d88333b8097.png)
+
+
+
+
 
 
