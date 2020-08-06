@@ -79,6 +79,8 @@ Change the line in `make_predict_azure_app.sh` to match the deployed prediction
 ![10-github-integration](https://user-images.githubusercontent.com/58792/89560627-5282ae00-d7e5-11ea-8b0b-bdecfff0e4d3.png)
 
 
+This process will create a YAML file that looks roughly like the YAML output shown below.  Refer to the [official Azure Pipeline YAML documentation for more information about it](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops#yaml-pipeline-explained).
+
 ```
 # Python to Linux Web App on Azure
 # Build your Python project and deploy it to Azure as a Linux Web App.
