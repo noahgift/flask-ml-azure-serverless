@@ -191,5 +191,13 @@ You can watch this [YouTube Walkthrough of this process](https://www.youtube.com
 You can watch this [YouTube Walkthrough of this process](https://www.youtube.com/watch?v=TItOatTfAOc)
 
 
+### [Cloud Computing for Data Analysis Book](https://leanpub.com/cloud4data)
+This book is being written "just in time", with a weekly release schedule.
+
+![cloud4data books](https://d2sofvawe08yqg.cloudfront.net/cloud4data/hero2x?1578933644)
+
+
+
+
 
 
