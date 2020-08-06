@@ -53,6 +53,19 @@ You will see this output:
 
 ![4-deployed-app](https://user-images.githubusercontent.com/58792/89557343-a8088c00-d7e0-11ea-891c-4d88333b8097.png)
 
+5.  Verify Machine Learning predictions work
+
+Change the line in `make_predict_azure_app.sh` to match the deployed prediction
+`-X POST https://<yourappname>.azurewebsites.net:$PORT/predict `
+
+![5-successful-prediction](https://user-images.githubusercontent.com/58792/89557573-02a1e800-d7e1-11ea-8318-1c628e13dae7.png)
+
+6. [Create an Azure DevOps project and connect to Azure, (as official documentation describes)](![5-successful-prediction](https://user-images.githubusercontent.com/58792/89557573-02a1e800-d7e1-11ea-8318-1c628e13dae7.png)
+
+
+
+
+
 
 
 
