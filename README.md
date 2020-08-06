@@ -170,5 +170,7 @@ stages:
               appName: $(webAppName)
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
   ```
+10.  Verify Continuous Delivery of Azure Pipelines by changing `app.py`
 
+You can watch this [YouTube Walkthrough of this process](https://www.youtube.com/watch?v=3KF9DltYvZU)
 
