@@ -1,7 +1,7 @@
 # flask-ml-azure-serverless
 Deploy Flask Machine Learning Application on Azure App Services
 
-## To run it follow steps
+## To run it locally follow these steps
 
 1.  Create virtual environment and source
 
@@ -16,3 +16,4 @@ source ~/.flask-ml-azure/bin/activat
 
 4.  In a separate shell run: `./make_prediction.sh`
 
+## To run it in Azure Pipelines
