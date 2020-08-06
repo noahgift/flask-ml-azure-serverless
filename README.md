@@ -64,8 +64,13 @@ Change the line in `make_predict_azure_app.sh` to match the deployed prediction
 
 ![6-devops](https://user-images.githubusercontent.com/58792/89558313-097d2a80-d7e2-11ea-8b65-df052b300331.png)
 
+7.  Connect to Azure Resource Manager
 
+![7-service-connection](https://user-images.githubusercontent.com/58792/89558869-d0918580-d7e2-11ea-8ffe-52cfaf95fe16.png)
 
+8.  Configure connection to previously deployed resource group
+
+![8-azure-pipelines-setup](https://user-images.githubusercontent.com/58792/89560149-988b4200-d7e4-11ea-9e25-3554ac2bd8fd.png)
 
 
 
