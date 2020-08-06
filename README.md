@@ -62,6 +62,9 @@ Change the line in `make_predict_azure_app.sh` to match the deployed prediction
 
 6. [Create an Azure DevOps project and connect to Azure, (as official documentation describes)](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops)
 
+![6-devops](https://user-images.githubusercontent.com/58792/89558313-097d2a80-d7e2-11ea-8b65-df052b300331.png)
+
+
 
 
 
