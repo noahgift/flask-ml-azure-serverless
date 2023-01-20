@@ -54,16 +54,18 @@ def predict():
 
     """
 
+    file_name = "boston_housing_prediction.joblib"
+    
     try:
-        clf = joblib.load("boston_housing_prediction.joblib")
+        clf = joblib.load(file_name)
     except:
-        LOG.info("JSON payload: %s json_payload")
+        LOG.info("Model not loaded: %s" % file_name)
         return "Model not loaded"
 
     json_payload = request.json
-    LOG.info("JSON payload: %s json_payload")
+    LOG.info("JSON payload: %s" % json_payload)
     inference_payload = pd.DataFrame(json_payload)
-    LOG.info("inference payload DataFrame: %s inference_payload")
+    LOG.info("inference payload DataFrame: %s" % inference_payload)
     scaled_payload = scale(inference_payload)
     prediction = list(clf.predict(scaled_payload))
     return jsonify({'prediction': prediction})
