@@ -2,3 +2,9 @@ Flask==1.0.2
 pandas==1.1.5
 scikit-learn==0.22.2
 pylint==2.6.2
+Jinja2==2.11.3
+MarkupSafe==1.1.1
+itsdangerous==1.1.0
+numpy==1.19.5
+
+

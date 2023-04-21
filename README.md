@@ -3,7 +3,13 @@ Deploy Flask Machine Learning Application on Azure App Services
 
 ![continuous-delivery](https://user-images.githubusercontent.com/58792/85061538-f7352780-b174-11ea-8001-b0561c5bad73.jpg)
 
-## To run it locally follow these steps
+## If you run into problems
+
+* Build the container using Docker commands in the `Makefile`
+* Rebuild the model using a later version of sklearn and update requirements.txt with your version of sklearn
+
+
+## To run it locally follow these steps (on Python 3.8, there are issues on later version of Python)
 
 1.  Create virtual environment and source
 
